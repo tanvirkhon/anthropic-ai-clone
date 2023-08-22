@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:focus {
+  outline: none;
+}
+.bg-uivory-100 {
+  background-color: rgba(255, 255, 245, 1);
+}
+
+/* CSS Variables for bg-uivory-100 */
+:root {
+  --bg-uivory-100: rgba(255, 255, 245, 1);
+}
